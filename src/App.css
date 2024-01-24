@@ -1,6 +1,7 @@
 * {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-family: 'Poiret One', sans-serif;
+  margin: 0px;
 }
 
 header {
@@ -9,7 +10,7 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
-  margin-top: 0px;
+  margin: 0px;
 }
 
 .NavBar {
@@ -24,4 +25,32 @@ header {
   color: black;
   border: 1px solid orange;
   border-radius: 5px;
+}
+
+.home-container {
+  background-image: url("images/lianny.jpg");
+  opacity: 0.6;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+#title {
+  color: black;
+  padding-top: 300px;
+  margin-left: 30px;
+}
+
+.home-container h2 {
+  color: black;
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+.home-container h3 {
+  color: black;
+  padding-top: 20px;
+  margin-left: 30px;
 }
