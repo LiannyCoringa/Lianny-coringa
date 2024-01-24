@@ -1,8 +1,8 @@
 function NavBar() {
   return (
     <div className="NavBar">
-      <a href="/">Início</a>
-      <a href="/about">Sobre mim</a>
+      <a href="#title">Início</a>
+      <a href="#aboutus">Sobre mim</a>
       <a href="/hardskills">Hard skills</a>
       <a href="/softskills">Soft skills</a>
       <a href="/projects">Projetos</a>

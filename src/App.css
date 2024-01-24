@@ -30,7 +30,7 @@ header {
 .home-container {
   background-image: url("images/lianny.jpg");
   opacity: 0.6;
-  min-height: 100vh;
+  min-height: 88vh;
   background-size: cover;
   background-position: center;
   padding: 0px;
@@ -53,4 +53,37 @@ header {
   color: black;
   padding-top: 20px;
   margin-left: 30px;
+  width: 400px;
+}
+
+.aboutus {
+  padding: 0px;
+  margin: 0px;
+  background-color: antiquewhite;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus h1 {
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.aboutus h2 {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.aboutus h3 {
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: justify;
+  width: 800px;
+}
+
+.aboutus a {
+  margin-top: 30px;
 }
