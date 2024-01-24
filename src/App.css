@@ -4,6 +4,10 @@
   margin: 0px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -69,6 +73,7 @@ header {
 
 .aboutus h1 {
   text-align: justify;
+  padding-top: 30px;
 }
 
 .aboutus h2 {
@@ -83,4 +88,5 @@ header {
 
 .aboutus a {
   margin-top: 35px;
+  margin-bottom: 15px;
 }
