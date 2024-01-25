@@ -90,3 +90,51 @@ header {
   margin-top: 35px;
   margin-bottom: 15px;
 }
+
+.hard-skills-container {
+  padding: 0px;
+  margin: 0px;
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hard-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.card img {
+  width: 50px;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 500px;
+  margin: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.hard-skills-container h1 {
+  padding-bottom: 50px;
+}
