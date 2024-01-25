@@ -1,6 +1,6 @@
 function HardSkills() {
   return (
-    <div className="hard-skills-container">
+    <div className="hard-skills-container" id="hardskills">
       <h1>Hard Skills</h1>
       <div className="hard-skills">
         <div className="card-container">
