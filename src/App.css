@@ -44,6 +44,7 @@ header {
 
 .NavBar a:hover { 
   opacity: 0.5;
+  border-color: rgb(223, 192, 196)
 }
 
 .aboutus a:hover {
