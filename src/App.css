@@ -44,36 +44,35 @@ header {
 
 .NavBar a:hover { 
   opacity: 0.5;
-  border-color: rgb(223, 192, 196)
-}
-
-.aboutus a:hover {
-  opacity: 0.5;
+  border-color: rgb(223, 192, 196);
+  background-color: rgb(139, 44, 56);
 }
 
 #title {
   color: black;
   padding-top: 300px;
   margin-left: 30px;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slidein;
+  font-weight: bold;
 }
 
 .home-container h2 {
   color: black;
   padding-top: 20px;
   margin-left: 30px;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slidein;
+  font-weight: bold;
 }
 
 .home-container h3 {
   color: black;
   padding-top: 20px;
   margin-left: 30px;
-  width: 400px;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-name: slidein;
+  font-weight: bold;
 }
 
 @keyframes slidein {
@@ -83,13 +82,17 @@ header {
   }
 
   to {
-    margin-left: 2.5%;
+    margin-left: 1.7%;
     width: 100%;
   }
 }
 
+.aboutus a:hover {
+  opacity: 0.5;
+}
+
 .aboutus {
-  padding: 0px;
+  padding: 20px;
   margin: 0px;
   background-color: rgb(49, 49, 49);
   min-height: 100vh;
@@ -102,16 +105,19 @@ header {
 .aboutus h1 {
   text-align: justify;
   padding-top: 30px;
+  color: white;
 }
 
 .aboutus h2 {
   padding-top: 40px;
+  color: white;
 }
 
 .aboutus h3 {
   padding-top: 20px;
   text-align: justify;
   width: 800px;
+  color: white;
 }
 
 .aboutus a {
@@ -120,7 +126,7 @@ header {
 }
 
 .hard-skills-container {
-  padding: 0px;
+  padding: 30px;
   margin: 0px;
   background-color: black;
   color: white;
@@ -137,16 +143,8 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-}
-
-.hard-skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: space-around;
-  flex-wrap: wrap;
   width: 100%;
-
+  margin-bottom: 40px;
 }
 
 .card img {
@@ -158,13 +156,44 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 500px;
+  justify-content: space-between;
+  width: 900px;
   margin: 20px;
   border: 1px solid white;
   border-radius: 5px;
   background-color: white;
 }
 
+.card-soft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+
 .hard-skills-container h1 {
   padding-bottom: 50px;
+}
+
+.card-filho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+  color: black;
+  border: 1px solid black;
+}
+
+.card-filho:hover {
+  opacity: 0.5;
+  border: 2px solid rgb(134, 44, 59);
 }
