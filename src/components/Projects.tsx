@@ -1,6 +1,6 @@
 function Projects() {
   return (
-    <div>
+    <div id="projects">
       <h1>Projetos</h1>
       <div>
         <h2>Front-end</h2>
@@ -33,6 +33,31 @@ function Projects() {
           <div>
             <h3>App de Receitas</h3>
             <p>Tecnologias utilizadas: TypeScript, React e Context API</p>
+            <button>Saiba mais</button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h2>Back-end</h2>
+        <div>
+          <div>
+            <h3>Store Manager</h3>
+            <p>Tecnologias utilizadas: JavaScript, Docker, MySQL, Express</p>
+            <button>Saiba mais</button>
+          </div>
+          <div>
+            <h3>Blogs API</h3>
+            <p>Tecnologias utilizadas: JavaScript, Docker, MySQL, Express</p>
+            <button>Saiba mais</button>
+          </div>
+          <div>
+            <h3>Trybe Smith</h3>
+            <p>Tecnologias utilizadas: TypeScript, Docker, MySQL, Express</p>
+            <button>Saiba mais</button>
+          </div>
+          <div>
+            <h3>Trybe Futebol Clube</h3>
+            <p>Tecnologias utilizadas: TypeScript, React, Docker, MySQL, Express</p>
             <button>Saiba mais</button>
           </div>
         </div>
