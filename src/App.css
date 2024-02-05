@@ -217,6 +217,12 @@ header {
 
 .modal-content {
   padding: 20px;
+  background-color: black;
+}
+
+.modal-content img {
+  margin: 20px;
+  width: 700px;
 }
 
 #projects {

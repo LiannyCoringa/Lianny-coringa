@@ -15,6 +15,7 @@ function Projects() {
                   <h1>Password Manager</h1>
                   <p>Este projeto foi desenvolvido com o intuito de gerenciar senhas, podendo adicionar, editar e deletar.</p>
                   <p>Tecnologias utilizadas: TypeScript e React</p>
+                  <img src="images/password-manager.png" alt="forms de cadastro" />
                   <a href="https://github.com/LiannyCoringa/Project-Password-Manager" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
@@ -32,6 +33,8 @@ function Projects() {
                   <h1>TrybeTunes</h1>
                   <p>Neste projeto criei uma aplicação para pesquisar e listar álbuns e músicas de várias bandas e artistas. É possível também ouvir o preview de cada música e favoritar as músicas preferidas.</p>
                   <p>Tecnologias utilizadas: TypeScript, React e React Router</p>
+                  <img src="images/Trybe-tunes.png" alt="pesquisa" />
+                  <img src="images/Trybe-tunes1.png" alt="preview das musicas" />
                   <a href="https://github.com/LiannyCoringa/Project-TrybeTunes" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
@@ -49,6 +52,9 @@ function Projects() {
                   <h1>Front-end Online Store</h1>
                   <p>Projeto em grupo, onde construímos o Front-end de um e-commerce, uma loja online, alimentada por uma API do Mercado Livre. Esse projeto foi desenvolvido com a metodologia agile Kanban.</p>
                   <p>Tecnologias utilizadas: TypeScript, React e React Router</p>
+                  <img src="images/online-store.png" alt="categorias" />
+                  <img src="images/online-store1.png" alt="resultado da pesquisa" />
+                  <img src="images/online-store2.png" alt="carrinho" />
                   <a href="https://github.com/LiannyCoringa/Project-FrontEnd-Online-Store" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
@@ -66,6 +72,7 @@ function Projects() {
                   <h1>Trybe Wallet</h1>
                   <p>Aplicação que computa gastos em diferentes moedas e converte tudo para uma única moeda, que pode ser escolhida pelo usuário. Usei a API de Cotações de Moedas.</p>
                   <p>Tecnologias utilizadas: TypeScript, React e Redux</p>
+                  <img src="images/TrybeWallet.png" alt="adicionar despesa" />
                   <a href="https://github.com/LiannyCoringa/Project-TrybeWallet" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
@@ -83,6 +90,7 @@ function Projects() {
                   <h1>StarWars</h1>
                   <p>Aplicação que recupera dados retornados pela API e cria uma tabela com alguns filtros. Os planetas podem ser filtrados por suas características, como população, período orbital, diâmetro e outras.</p>
                   <p>Tecnologias utilizadas: TypeScript, React e Context API</p>
+                  <img src="images/starwars.png" alt="pagina principal" />
                   <a href="https://github.com/LiannyCoringa/StarWars" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
@@ -100,6 +108,12 @@ function Projects() {
                   <h1>App de Receitas</h1>
                   <p>Projeto em grupo, onde desenvolvemos um aplicativo de receitas, com uma interface mobile only, em que é possível visualizar, buscar, filtrar, favoritar, compartilhar e acompanhar o processo de preparação de receitas e drinks. Esse projeto foi desenvolvido com a metodologia agile Kanban.</p>
                   <p>Tecnologias utilizadas: TypeScript, React e Context API</p>
+                  <img src="images/recipes-app.png" alt ="login" />
+                  <img src="images/recipes-app1.png" alt="meals" />
+                  <img src="images/recipes-app2.png" alt="drinks" />
+                  <img src="images/recipes-app3.png" alt="pagina de detalhes" />
+                  <img src="images/recipes-app4.png" alt="pagina de favoritos" />
+                  <img src="images/recipes-app5.png" alt="perfil" />
                   <a href="https://github.com/LiannyCoringa/Project-RecipesApp" target="_blank" rel="noreferrer">
                     <button className="btn btn-primary">Repositório</button>
                   </a>
