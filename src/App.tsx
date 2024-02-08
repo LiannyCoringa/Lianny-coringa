@@ -1,5 +1,7 @@
 import './App.css';
+import { FormspreeProvider } from '@formspree/react';
 import AboutUs from './components/Aboutus';
+import ContactForm from './components/Contact';
 import HardSkills from './components/HardSkills';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -13,6 +15,7 @@ function App() {
       <AboutUs />
       <HardSkills />
       <Projects />
+      <ContactForm />
     </div>
   );
 }
