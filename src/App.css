@@ -256,3 +256,56 @@ header {
   border: 1px solid black;
   padding: 20px;
 }
+
+.form-contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #000000;
+  color: white;
+  text-shadow: #f05353 2px 2px 2px;
+}
+
+.label {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.input-contact {
+  margin-top: 20px;
+  width: 500px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+}
+
+.input-textarea-contact {
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+}
+
+.span-contact {
+  color: rgb(226, 56, 78);
+}
+
+.button-contact {
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+  color: white;
+  border: none;
+}

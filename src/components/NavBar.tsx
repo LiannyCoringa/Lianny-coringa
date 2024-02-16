@@ -5,7 +5,7 @@ function NavBar() {
       <a href="#aboutus"><b>Sobre mim</b></a>
       <a href="#skills"><b>Skills</b></a>
       <a href="#projects"><b>Projetos</b></a>
-      <a href="/contact"><b>Contato</b></a>
+      <a href="#contact"><b>Contato</b></a>
     </div>
   );
 }
