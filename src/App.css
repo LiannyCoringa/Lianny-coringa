@@ -309,3 +309,18 @@ header {
   color: white;
   border: none;
 }
+
+.ButtonHome {
+  position: fixed;
+  width: 70px;
+  bottom: 20px;
+  right: 20px;
+  visibility: hidden;
+  background-color: rgb(95, 90, 92);
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(184, 172, 177) 0%, rgba(134, 44, 59, 1) 100%);
+}
+
+.ButtonHome.visible {
+  visibility: visible;
+}

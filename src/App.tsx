@@ -1,11 +1,11 @@
 import './App.css';
-import { FormspreeProvider } from '@formspree/react';
 import AboutUs from './components/Aboutus';
 import ContactForm from './components/Contact';
 import HardSkills from './components/HardSkills';
 import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import ButtonHome from './components/ButtonHome';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <HardSkills />
       <Projects />
       <ContactForm />
+      <ButtonHome />
     </div>
   );
 }
