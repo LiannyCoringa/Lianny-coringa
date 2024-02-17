@@ -4,6 +4,7 @@ function HardSkills() {
       <h1>Skills</h1>
       <div className="card-container">
         <h2>Hard Skills</h2>
+        <p>Tecnologias que domino e tenho conhecimento.</p>
         <div className="card">
           <div className="card-filho">
             <img src="images/git.svg" alt="github" />
@@ -73,6 +74,7 @@ function HardSkills() {
       </div>
       <div className="card-container">
         <h2>Soft Skills</h2>
+        <p>Habilidades comportamentais e relacionadas à minha personalidade.</p>
         <div className="card-soft">
           <li>Comunicação</li>
           <li>Inteligência Emocional</li>
