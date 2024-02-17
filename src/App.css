@@ -324,3 +324,35 @@ header {
 .ButtonHome.visible {
   visibility: visible;
 }
+
+.footer {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #050505;
+  color: white;
+  text-shadow: #c24242 2px 2px 2px;
+}
+
+.footer-img {
+  width: 150px;
+  margin: 20px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center
+}
+
+.footer-contact img {
+  width: 30px;
+  margin: 10px;
+}
+
+.footer-contact p {
+  margin: 10px;
+}
