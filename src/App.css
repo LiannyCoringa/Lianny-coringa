@@ -326,19 +326,17 @@ header {
 }
 
 .footer {
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #050505;
+  background-color: #000000;
   color: white;
   text-shadow: #c24242 2px 2px 2px;
 }
 
 .footer-img {
-  width: 150px;
-  margin: 20px;
+  width: 200px;
 }
 
 .footer-contact {
@@ -355,4 +353,9 @@ header {
 
 .footer-contact p {
   margin: 10px;
+}
+
+.linha {
+  border: 1px solid rgb(226, 56, 78);
+  width: 100%;
 }

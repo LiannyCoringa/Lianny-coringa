@@ -9,7 +9,7 @@ function ButtonHome() {
   });
   return (
     // eslint-disable-next-line jsx-a11y/control-has-associated-label
-    <a href="#nav">
+    <a href="#nav" className="ButtonHome">
       <button className="ButtonHome">
         <img src="images/icons8-acima-dentro-de-um-círculo-50.png" alt="Home" />
       </button>
