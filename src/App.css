@@ -1,6 +1,11 @@
 * {
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-family: 'Poiret One', sans-serif;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 header {
@@ -9,7 +14,8 @@ header {
   align-items: center;
   justify-content: space-between;
   color: white;
-  margin-top: 0px;
+  background-color: #545454;
+  margin: 0px;
 }
 
 .NavBar {
@@ -21,7 +27,335 @@ header {
   text-decoration: none;
   margin: 0px 20px;
   padding: 5px;
-  color: black;
-  border: 1px solid orange;
+  color: white;
+  border: 1px solid white;
   border-radius: 5px;
+}
+
+.home-container {
+  background-image: url("images/lianny.jpg");
+  opacity: 0.6;
+  min-height: 88vh;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.NavBar a:hover { 
+  opacity: 0.5;
+  border-color: rgb(223, 192, 196);
+  background-color: rgb(139, 44, 56);
+}
+
+#title {
+  color: black;
+  padding-top: 300px;
+  margin-left: 30px;
+  animation-duration: 5s;
+  animation-name: slidein;
+  font-weight: bold;
+  text-shadow: #545454 2px 2px 2px;
+}
+
+.home-container h2 {
+  color: black;
+  padding-top: 20px;
+  margin-left: 30px;
+  animation-duration: 5s;
+  animation-name: slidein;
+  font-weight: bold;
+  text-shadow: #545454 2px 2px 2px;
+}
+
+.home-container h3 {
+  color: black;
+  padding-top: 20px;
+  margin-left: 30px;
+  animation-duration: 5s;
+  animation-name: slidein;
+  font-weight: bold;
+  text-shadow: #545454 2px 2px 2px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 1.7%;
+    width: 100%;
+  }
+}
+
+.aboutus a:hover {
+  opacity: 0.5;
+}
+
+.aboutus {
+  padding: 20px;
+  margin: 0px;
+  background-color: rgb(49, 49, 49);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus h1 {
+  text-align: justify;
+  padding-top: 30px;
+  color: white;
+}
+
+.aboutus h2 {
+  padding-top: 40px;
+  color: white;
+}
+
+.aboutus h3 {
+  padding-top: 20px;
+  text-align: justify;
+  width: 800px;
+  color: white;
+}
+
+.aboutus a {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+.hard-skills-container {
+  padding: 30px;
+  margin: 0px;
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #c24242 2px 2px 2px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.card img {
+  width: 50px;
+  margin: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 900px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.card-soft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+
+.hard-skills-container h1 {
+  padding-bottom: 50px;
+}
+
+.card-filho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 150px;
+  color: black;
+  border: 1px solid black;
+}
+
+.card-filho:hover {
+  opacity: 0.5;
+  border: 2px solid rgb(134, 44, 59);
+}
+
+.card-soft li:hover {
+  opacity: 0.5;
+  font-size: 35px;
+}
+
+.btn {
+  background-color: rosybrown;
+}
+
+.btn:hover {
+  background-color: rgb(134, 44, 59);
+}
+
+.modal-content {
+  padding: 20px;
+  background-color: black;
+}
+
+.modal-content img {
+  margin: 20px;
+  width: 700px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #545454;
+  color: white;
+  text-shadow: #c24242 2px 2px 2px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  padding: 30px;
+}
+
+#title-project {
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: #c24242 2px 2px 2px;
+}
+
+.projects-card {
+  margin: 30px;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.form-contact {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background-color: #000000;
+  color: white;
+  text-shadow: #f05353 2px 2px 2px;
+}
+
+.label {
+  margin-top: 40px;
+  font-size: 30px;
+}
+
+.input-contact {
+  margin-top: 20px;
+  width: 500px;
+  height: 45px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+}
+
+.input-textarea-contact {
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+}
+
+.span-contact {
+  color: rgb(226, 56, 78);
+}
+
+.button-contact {
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(70, 41, 49);
+  color: white;
+  border: none;
+}
+
+.ButtonHome {
+  position: fixed;
+  width: 70px;
+  bottom: 20px;
+  right: 20px;
+  visibility: hidden;
+  background-color: rgb(95, 90, 92);
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgb(184, 172, 177) 0%, rgba(134, 44, 59, 1) 100%);
+}
+
+.ButtonHome.visible {
+  visibility: visible;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  text-shadow: #c24242 2px 2px 2px;
+}
+
+.footer-img {
+  width: 200px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center
+}
+
+.footer-contact img {
+  width: 30px;
+  margin: 10px;
+}
+
+.footer-contact p {
+  margin: 10px;
+}
+
+.linha {
+  border: 1px solid rgb(226, 56, 78);
+  width: 100%;
 }
