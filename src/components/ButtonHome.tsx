@@ -1,20 +1,31 @@
+import { useEffect, useState } from 'react';
+
 function ButtonHome() {
-  const buttonHome = document.querySelector('.ButtonHome');
-  window.addEventListener('scroll', () => {
-    if (window.scrollY === 0) {
-      buttonHome?.classList.remove('visible');
+  const [isVisible, setIsVisible] = useState(false);
+  const handleScroll = () => {
+    const { scrollY } = window;
+
+    if (scrollY > 150) {
+      setIsVisible(true);
     } else {
-      buttonHome?.classList.add('visible');
+      setIsVisible(false);
     }
-  });
+  };
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    // eslint-disable-next-line jsx-a11y/control-has-associated-label
-    <a href="#nav" className="ButtonHome">
-      <button className="ButtonHome">
-        <img src="images/icons8-acima-dentro-de-um-círculo-50.png" alt="Home" />
-      </button>
-    </a>
-  );
+    isVisible && (
+      <a href="#nav" className="ButtonHome">
+        <button className="ButtonHome">
+          <img src="images/icons8-acima-dentro-de-um-círculo-50.png" alt="Home" />
+        </button>
+      </a>
+    ));
 }
 
 export default ButtonHome;
