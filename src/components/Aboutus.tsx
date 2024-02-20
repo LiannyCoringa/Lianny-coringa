@@ -9,9 +9,9 @@ function AboutUs() {
         atuei como advogada na área de Direito Previdenciário.</h3>
       <h3>Em 2023, comecei a estudar programação por curiosidade e me apaixonei por essa área. Foi a virada de chave da minha vida.</h3>
       <h3>Atualmente, sou estudante de Desenvolvimento Web Full Stack na Trybe e estou em busca de uma oportunidade para atuar como desenvolvedora web.</h3>
-      <a href="cv/Currículo Lianny.pdf" download><img src="images/icons8-analisar-da-área-de-transferência-50.png" alt="currículo"/></a>
-      <a href="https://www.linkedin.com/in/lianny-coringa/" target="_blank"><img src="images/icons8-linkedin-50.png" alt="linkedin"/></a>
-      <a href="https://github.com/LiannyCoringa" target="_blank"><img src="images/icons8-github-50.png" alt="github"/></a>
+      <a href="cv/Currículo Lianny.pdf" download><img src="src/images/icons8-analisar-da-área-de-transferência-50.png" alt="currículo"/></a>
+      <a href="https://www.linkedin.com/in/lianny-coringa/" target="_blank"><img src="src/images/icons8-linkedin-50.png" alt="linkedin"/></a>
+      <a href="https://github.com/LiannyCoringa" target="_blank"><img src="src/images/icons8-github-50.png" alt="github"/></a>
     </div>
   );
 }
