@@ -8,6 +8,7 @@ function Footer() {
           alt="logo com o nome Lianny"
           className="footer-img"
         />
+        <p>Projetado e Desenvolvido por Lianny Coringa.</p>
         <div className="footer-contact">
           <a href="https://wa.me/5584999874004" target="_blank" rel="noreferrer">
             <img src="images/whatsapp (1).png" alt="celular" />
