@@ -33,7 +33,7 @@ header {
 }
 
 .home-container {
-  background-image: url("src/images/lianny.jpg");
+  background-image: url("./images/lianny.jpg");
   opacity: 0.6;
   min-height: 88vh;
   background-size: cover;

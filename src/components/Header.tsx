@@ -1,9 +1,10 @@
 import NavBar from './NavBar';
+import img2 from '../images/image2.png';
 
 function Header() {
   return (
     <header id="nav">
-      <img src="src/images/image2.png" alt="lianny coringa" width={ 200 } />
+      <img src={ img2 } alt="lianny coringa" width={ 200 } />
       <NavBar />
     </header>
   );

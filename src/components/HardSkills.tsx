@@ -1,3 +1,20 @@
+import github from '../images/git.svg';
+import html from '../images/html.svg';
+import css from '../images/css-3.png';
+import javascript from '../images/script-java.png';
+import typescript from '../images/typescript.png';
+import react from '../images/icons8-react-48.png';
+import redux from '../images/redux.png';
+import jest from '../images/jest.png';
+import vite from '../images/vite_logo_icon_249258.png';
+import tailwind from '../images/tailwind_icon_131947.png';
+import node from '../images/nodejs.png';
+import docker from '../images/icons8-docker-50.png';
+import mysql from '../images/icons8-mysql-50.png';
+import sequelize from '../images/sequelize_icon_132004.png';
+import mocha from '../images/mocha_plain_logo_icon_146426.png';
+import python from '../images/icons8-python-50.png';
+
 function HardSkills() {
   return (
     <div className="hard-skills-container" id="skills">
@@ -7,67 +24,67 @@ function HardSkills() {
         <p>Tecnologias que domino e tenho conhecimento.</p>
         <div className="card">
           <div className="card-filho">
-            <img src="src/images/git.svg" alt="github" />
+            <img src={ github } alt="github" />
             <p>Git</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/html.svg" alt="html" />
+            <img src={ html } alt="html" />
             <p>HTML 5</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/css-3.png" alt="css" />
+            <img src={ css } alt="css" />
             <p>CSS 3</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/script-java.png" alt="javascript" />
+            <img src={ javascript } alt="javascript" />
             <p>JavaScript</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/typescript.png" alt="typescript" />
+            <img src={ typescript } alt="typescript" />
             <p>TypeScript</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/icons8-react-48.png" alt="react" />
+            <img src={ react } alt="react" />
             <p>React</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/redux.png" alt="redux" />
+            <img src={ redux } alt="redux" />
             <p>Redux</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/jest.png" alt="jest" />
+            <img src={ jest } alt="jest" />
             <p>Jest</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/vite_logo_icon_249258.png" alt="vite" />
+            <img src={ vite } alt="vite" />
             <p>Vite</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/tailwind_icon_131947.png" alt="tailwind" />
+            <img src={ tailwind } alt="tailwind" />
             <p>Tailwind</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/nodejs.png" alt="node" />
+            <img src={ node } alt="node" />
             <p>Node</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/icons8-docker-50.png" alt="docker" />
+            <img src={ docker } alt="docker" />
             <p>Docker</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/icons8-mysql-50.png" alt="mysql" />
+            <img src={ mysql } alt="mysql" />
             <p>MySQL</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/sequelize_icon_132004.png" alt="sequelize" />
+            <img src={ sequelize } alt="sequelize" />
             <p>Sequelize</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/mocha_plain_logo_icon_146426.png" alt="mocha" />
+            <img src={ mocha } alt="mocha" />
             <p>Mocha</p>
           </div>
           <div className="card-filho">
-            <img src="src/images/icons8-python-50.png" alt="python" />
+            <img src={ python } alt="python" />
             <p>Python</p>
           </div>
         </div>

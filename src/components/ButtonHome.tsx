@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import buttonImg from '../images/icons8-acima-dentro-de-um-círculo-50.png';
 
 function ButtonHome() {
   const [isVisible, setIsVisible] = useState(false);
@@ -22,7 +23,7 @@ function ButtonHome() {
     isVisible && (
       <a href="#nav" className="ButtonHome">
         <button className="ButtonHome">
-          <img src="src/images/icons8-acima-dentro-de-um-círculo-50.png" alt="Home" />
+          <img src={ buttonImg } alt="Home" />
         </button>
       </a>
     ));
